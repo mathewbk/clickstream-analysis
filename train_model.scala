@@ -1,5 +1,4 @@
 // Databricks notebook source
-
 val product_ratings = sqlContext.sql("select * from bmathew.product_ratings")
 val Array(training, test) = product_ratings.randomSplit(Array(0.8, 0.2))
 import org.apache.spark.ml.evaluation.RegressionEvaluator
