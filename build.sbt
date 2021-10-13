@@ -1,3 +1,4 @@
+# Databricks notebook source
 name := "Test Scala Code"
 
 version := "1.0"
